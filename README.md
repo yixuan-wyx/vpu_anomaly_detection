@@ -51,4 +51,3 @@ python convert_to_wav.py
 
 
 **Lastly**, after you've captured all desired audio data, run convert_to_wav.py for each of the .bin files to convert them into .wav files for further analysis or processing.
-
