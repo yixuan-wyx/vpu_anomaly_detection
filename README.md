@@ -44,11 +44,11 @@ python convert_to_wav.py
 ```
 
 # Execution Order:
-First, ensure code.py is correctly placed on your Feather board and the board is operational, capturing and sending audio data over serial. Add the code.py file to CIRCUITPY Drive
+**First**, ensure code.py is correctly placed on your Feather board and the board is operational, capturing and sending audio data over serial. Add the code.py file to CIRCUITPY Drive
 
 
-Second, run read_serial.py on your local computer to start receiving the audio data from your Feather board. This script should be kept running as long as you want to capture audio data. It will automatically segment the audio into chunks and save them as .bin files.
+**Second**, run read_serial.py on your local computer to start receiving the audio data from your Feather board. This script should be kept running as long as you want to capture audio data. It will automatically segment the audio into chunks and save them as .bin files.
 
 
-Lastly, after you've captured all desired audio data, run convert_to_wav.py for each of the .bin files to convert them into .wav files for further analysis or processing.
+**Lastly**, after you've captured all desired audio data, run convert_to_wav.py for each of the .bin files to convert them into .wav files for further analysis or processing.
 
